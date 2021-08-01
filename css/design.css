@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+/* *{
+    font-family: 'Roboto', sans-serif;
+} */
+.wrap{
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+.head{
+    width: 100%;
+    height: 958px;
+    background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week2/banner.png?raw=true");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    color: white;
+}
+.head p{
+   font-size: 24px; 
+}
+.lh-36{
+    line-height: 36px;
+}
+.lh-42{
+    line-height: 42px;
+}
+.head h1{
+    font-size: 80px;
+    line-height: 106px;
+
+}
+.head .head-link img{
+    margin: 0 8px;
+    margin-top:40px ;
+}
+.about{
+    text-align: center;
+}
+.about h2{
+    font-size: 64px;
+    line-height: 84px;
+    color:black;
+    padding-top: 56px;
+    padding-bottom: 40px;
+}
+.about-content{
+    font-size: 24px;
+    line-height: 36px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.border{
+    margin: 0 auto;
+    width: 384px;
+    padding-top: 20px;
+    border-bottom: 1px solid black;
+}
+.about-list{
+    font-size: 24px;
+    line-height: 42px;
+    padding-top: 20px;
+    padding-bottom: 56px;
+}
